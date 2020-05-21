@@ -31,3 +31,75 @@ If invalid query:
 ```
 
 Query self-documenting because GQL API exposes app schema, which describes all operations that can be performed.
+
+## Nested
+
+Query:
+
+```graphql
+query {
+  hello
+  course
+  courseInstructor
+  me {
+    id
+    name
+    email
+  }
+}
+```
+
+Result:
+
+```json
+{
+  "data": {
+    "hello": "Hello world!",
+    "course": "GraphQL",
+    "courseInstructor": "Andrew Mead",
+    "me": {
+      "id": "dc44bec2-3299-4542-a5fa-77c676fdfaf3",
+      "name": "Andrew",
+      "email": "andrew@example.com"
+    }
+  }
+}
+```
+
+### Array
+
+Assume `users: [User!]!`:
+
+Query:
+
+```graphql
+query {
+  users {
+    name
+    email
+  }
+}
+```
+
+Result:
+
+```json
+{
+  "data": {
+    "users": [
+      {
+        "name": "Andrew",
+        "email": "andrew@example.com"
+      },
+      {
+        "name": "Sarah",
+        "email": "sarah@example.com"
+      },
+      {
+        "name": "Michael",
+        "email": "michael@example.com"
+      }
+    ]
+  }
+}
+```
