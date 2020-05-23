@@ -56,11 +56,11 @@ Result:
   "data": {
     "hello": "Hello world!",
     "course": "GraphQL",
-    "courseInstructor": "Andrew Mead",
+    "courseInstructor": "John Smith",
     "me": {
       "id": "dc44bec2-3299-4542-a5fa-77c676fdfaf3",
-      "name": "Andrew",
-      "email": "andrew@example.com"
+      "name": "John",
+      "email": "john@example.com"
     }
   }
 }
@@ -88,8 +88,8 @@ Result:
   "data": {
     "users": [
       {
-        "name": "Andrew",
-        "email": "andrew@example.com"
+        "name": "John",
+        "email": "john@example.com"
       },
       {
         "name": "Sarah",
