@@ -30,8 +30,6 @@ If invalid query:
 }
 ```
 
-Query self-documenting because GQL API exposes app schema, which describes all operations that can be performed.
-
 ## Nested
 
 Query:
@@ -100,6 +98,32 @@ Result:
         "email": "michael@example.com"
       }
     ]
+  }
+}
+```
+
+## Arguments
+
+```graphql
+{
+  repository(name: "graphql", owner: "facebook") {
+    id
+    description
+    homepageUrl
+  }
+}
+```
+
+Result:
+
+```json
+{
+  "data": {
+    "repository": {
+      "id": "MDEwOlJlcG9zaXRvcnkzODM0MjIyMQ==",
+      "description": "GraphQL is a query language and execution engine tied to any backend service.",
+      "homepageUrl": "https://spec.graphql.org"
+    }
   }
 }
 ```
