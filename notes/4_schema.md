@@ -31,7 +31,7 @@ Field with `!` after type always returns value. Otherwise can be `null`.
 2. `Boolean`
 3. `Int`
 4. `Float`
-5. `ID` - like string, but with differences, specifically for identifier
+5. `ID` - like string, but specifically for identifier
 
 ## Resolvers
 
