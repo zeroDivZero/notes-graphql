@@ -15,9 +15,9 @@ const typeDefs = `
 Each resolver function receives 4 args:
 
 ```javascript
-greeting(parent, args,ctx, info) {
+greeting(parent, args, ctx, info) {
   if (args.name) {
-    return `Hello ${args.name}!`
+    return `Hello, ${args.name}!`
   } else {
     return 'Hello!'
   }
