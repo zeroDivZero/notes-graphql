@@ -4,7 +4,6 @@ Arg list may be long. Define custom input type to group args. Also allows reusab
 
 ```javascript
 const typeDefs = `
-  type Query {
   type Mutation {
     createUser(input: CreateUserInput!): User!
   }

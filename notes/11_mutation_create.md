@@ -1,4 +1,4 @@
-# MUTATION CREATE DATA
+# MUTATION CREATE
 
 ```javascript
 const typeDefs = `
