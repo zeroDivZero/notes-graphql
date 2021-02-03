@@ -1,6 +1,6 @@
 # INPUT TYPE
 
-Argument list may get too long. Can define custom input type to group args. Also allows reusability.
+Arg list may be long. Define custom input type to group args. Also allows reusability.
 
 ```javascript
 const typeDefs = `
@@ -16,7 +16,7 @@ const typeDefs = `
   }
 ```
 
-All properties must be scalar types (hence cannot directly use custom type like `User`, which may contain other custom type). Naming convention is to have postfix `Input`.
+All props must be scalars (no custom type like `User`, which may contain other custom type). Type naming convention: postfix `Input`.
 
 Resolver:
 
