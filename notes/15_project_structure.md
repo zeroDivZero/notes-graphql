@@ -125,4 +125,4 @@ const resolvers = {
 }
 ```
 
-User same pattern to break up resolver functions into their own files as necessary.
+User same pattern to break up resolver methods into their own files as necessary.
