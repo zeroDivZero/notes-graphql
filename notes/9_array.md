@@ -152,8 +152,11 @@ query {
     email
   }
 }
+```
 
-# result
+Response:
+
+```json
 {
   "data": {
     "nameWithX": [
