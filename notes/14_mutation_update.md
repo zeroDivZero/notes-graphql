@@ -42,7 +42,6 @@ updateUser(parent, args, { db }, info) {
     user.name = data.name
   }
 
-  // can be null
   if (typeof data.age !== 'undefined') {
     user.age = data.age
   }

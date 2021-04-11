@@ -57,7 +57,7 @@ const db = {
 export default db
 ```
 
-Instead of importing to use directly, set it on context because every resolver, which could be split to separate its own file, automatically gets it.
+Instead of importing to use directly, set it on context because every resolver, which could be split to its own file, automatically gets it.
 
 ```js
 import db from './db'
@@ -125,4 +125,4 @@ const resolvers = {
 }
 ```
 
-User same pattern to break up resolver methods into their own files as necessary.
+Use same pattern to break up resolver methods into their own files as necessary.
