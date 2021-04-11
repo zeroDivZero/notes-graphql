@@ -1,4 +1,4 @@
-# Playground
+# PLAYGROUND
 
 Graphical, interactive, in-browser GraphQL IDE.
 
