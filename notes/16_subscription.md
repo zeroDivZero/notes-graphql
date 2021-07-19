@@ -61,3 +61,11 @@ export default Subscription
 ```
 
 Notice type of `count` is not simply `Int` but object with `subscribe()` function. Likewise, `publish()` takes object that matches schema to publish.
+
+Subscription:
+
+```graphql
+subscription {
+  count
+}
+```
