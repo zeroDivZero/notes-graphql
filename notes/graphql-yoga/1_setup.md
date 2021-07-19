@@ -2,7 +2,7 @@
 
 [website](https://github.com/prisma-labs/graphql-yoga)
 
-GraphQL server. NPM package. Easy setup, yet powerful enough for production.
+GraphQL server. NPM package. Easy setup, powerful enough for production.
 
 ```javascript
 import { GraphQLServer } from 'graphql-yoga'

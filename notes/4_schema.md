@@ -35,7 +35,7 @@ Field with `!` after type always returns value. Otherwise can be `null`.
 
 ## Resolvers
 
-`typeDefs` define operations, resolvers contain implementations. Mirrors `typeDefs`, but value of each operation is function.
+`typeDefs` defines operations, resolvers contain implementations. Mirrors `typeDefs`, but value of each operation is function.
 
 ```javascript
 const typeDefs = `

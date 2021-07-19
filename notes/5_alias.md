@@ -1,6 +1,6 @@
 # ALIAS
 
-Cannot use same operation with different arguments at same time. Use aliases just before operation.
+Cannot use same operation with different args at same time. Use aliases:
 
 ```graphql
 {

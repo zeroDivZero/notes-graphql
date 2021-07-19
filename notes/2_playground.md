@@ -2,7 +2,7 @@
 
 Graphical, interactive, in-browser GraphQL IDE.
 
-In development, Apollo Server enables GraphQL Playground on same URL as GraphQL server (e.g. [http://localhost:4000/graphql](http://localhost:4000/graphql)) and automatically serves GUI to web browsers. When `NODE_ENV` is set to production, GraphQL Playground (and introspection) is disabled.
+In development, Apollo Server enables GQL Playground on same URL as GQL server (e.g. [http://localhost:4000/graphql](http://localhost:4000/graphql)) and automatically serves GUI to web browsers. When `NODE_ENV` is set to production, GQL Playground (and introspection) is disabled.
 
 When typing, `Ctrl-Space` to see inline doc.
 
